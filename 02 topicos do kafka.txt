@@ -1,0 +1,27 @@
+começado a cria o topicos
+
+cd kafka/bim
+./kafka-topics.sh --create --toíc [ola-mundo] --bootstrap-server localhost:
+9092
+
+##############################################################################
+lista comando para o topico
+
+ls
+./kafka-console-producer.sh --topic[nome do topico] --bootstrap-server localhost:9092
+agora pode cofigura as mensagem
+
+#######################################################################################
+simulando um consumidor recebe tudo que tem
+nova janela 
+cd kafka/bin
+./kafka-console-consumer.sh --topic[nome do topico] --fron-beginning --bootstrap-server
+localhost:9092
+#############################################################################################
+simulando um consumidor recebe so o que entra 
+nova janela 
+cd kafka/bin
+./kafka-console-consumer.sh --topic[nome do topico] --bootstrap-server
+localhost:9092
+finaliza console contro c
+

@@ -1,0 +1,69 @@
+# instalado o kafka 
+
+documentaçao do kafka = https://kafka.apache.org/documentation/
+
+saite = https://kafka.apache.org/downloads
+baixa o binario no sistema linux o escala do kafka
+
+#########################################################################################
+
+protemo de comando do linux
+
+cd Downloads/
+ls
+cp kafka_2.13...
+cd..
+ls
+trasferido o kafka pra area de trabalhor
+
+tar -xzf kafka_2....
+ls
+alterando o nome do kafka
+mv kafka_2.....
+ls
+###########################################################################################
+executando os script 
+na pasta kafka da os sequinte comando 
+ls 
+cd bin
+ls
+primeiro executa o 
+$ ./zookeeper-serve-start.sh../config/zookeeper.properties
+nao porde fecha o console cmd 
+########################################################################################
+nova janela e executa o kafka 
+cd kafka/bin
+ls
+$ ./kafka-server-start.sh ../config/server.properties
+
+########################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
