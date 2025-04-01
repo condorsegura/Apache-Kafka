@@ -1,0 +1,7 @@
+codigo 
+./kafka-topics.sh --zookeeper localhost:2181 --list
+
+#######################################################
+mais informaçao do topico
+
+./kafka-topics.sh --describe --topic [olamundo] --bootstrap-server localhost:9092
