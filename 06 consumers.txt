@@ -1,0 +1,23 @@
+grupo de consumido 
+
+./kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092
+--topic mensagens --group consumidores 
+
+quando os crupo sao do mesmo as mensagemsao aternada
+##############################################################
+saber os grupo 
+
+./kafka-console-consumer-groups.sh --bootstrap-server 
+localhost:9092 --list
+
+#############################################################3
+descreve os grupo
+
+./kafka-console-consumer-groups.sh --bootstrap-server 
+localhost:9092 --describe --groups consumidores
+
+#################################################################
+dando um reset offset
+./kafka-console-consumer-groups.sh --bootstrap-server 
+localhost:9092 --group consumidores --topic mensagens 
+--reset-offsets --to-earlist --execute
