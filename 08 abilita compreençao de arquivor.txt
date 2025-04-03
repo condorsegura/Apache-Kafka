@@ -1,0 +1,7 @@
+codigo 
+./kafak-topics.sh --bootstrap-sever 127.0.0.1:9092 --topic compress
+--create --patitions 3 --config compression.type=gzip
+####################################################################
+
+./kafak-console-producer.sh --bootstrap-sever 127.0.0.1:9092 --topic compress
+--compression-codec gzip
