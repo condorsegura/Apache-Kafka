@@ -1,4 +1,4 @@
-#Prof. Fernando Amaral
+
 import time
 import re
 import datetime
